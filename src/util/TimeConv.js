@@ -1,4 +1,4 @@
-export default (time) => {
+const timeConv= (time) => {
   const MONTHS = ["January", "Febuary", "March"];
   console.log("hello")
   const pub = new Date(time * 1000);
@@ -7,3 +7,4 @@ export default (time) => {
   const year = pub.getFullYear();
   return `${MONTHS[month]} ${date} ${year}`;
 }
+export default timeConv;

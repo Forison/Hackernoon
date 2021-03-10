@@ -5,7 +5,7 @@ import timeConv from '../util/TimeConv';
 
 const Main = () => {
   const htmlToReactParser = new HtmlToReactParser.Parser();
-  console.log(store.markup)
+  console.log(store)
   return (
     <>
       <h1 className="text-center text-sm">
@@ -24,11 +24,43 @@ const Main = () => {
       <img src={store.mainImage} alt="hackernoon"/>
       <div className="">{htmlToReactParser.parse(store.markup)}</div>
       <div className="related">
-
+        <h1 className="text-center">Related</h1>
+        <div className="row">
+        {store.relatedStories.map((record,index)=>
+          <div className="col-4" key={index}>
+            <div className="my-card p-0">
+              <div className="top">
+                <h5 className="card-title">{record.text? record.text : record.title}</h5>
+              </div>
+              <div className="my-card-img top">
+                <h6 className="text-center">{record.reactionsCount} reactions</h6>
+                <img className="img-fluid p-0" src={record.image? record.image : record.mainImage} 
+                alt="hackernoon" />
+              </div>
+              <div className="card-bottom d-flex justify-content-between align-items-center">
+                <div className="profile-img">
+                  {/* <img src={record.profile.avatar} alt="hackernoon"/> */}
+                </div>
+                {/* <h3 className="profile-info">{record.profile.displayName}</h3> */}
+                <div className="profile-img"></div>
+              </div>
+            </div>
+          </div>
+          )}
+        </div>
       </div>
+
       <div className="tags">
-
+        <h1 className="text-center">Tags</h1>
+        <div className="row">
+          {store.tags.map( record =>
+          <div className="col-auto p-1">
+            <h3 className="custom-border p-1">#{record}</h3>
+          </div>
+          )}
+        </div>
       </div>
+
     </>
   )
 }
