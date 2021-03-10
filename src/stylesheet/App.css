@@ -106,7 +106,6 @@ img{
 }
 .tags{
   width: 70%;
-  height: 500px;
   margin: 0 auto;
 }
 footer{
@@ -128,4 +127,16 @@ footer{
 .custom-border{
   border: 5px dashed #dcdcdc;
   background: whitesmoke;
+}
+.join-noon{
+  border: 5px solid #25e425;
+  background: #333;
+  font-weight: 900;
+}
+.hackernoon-color{
+  color: #25e425;
+}
+.mini-text{
+  padding: 5px;
+  font-size: 25px;
 }

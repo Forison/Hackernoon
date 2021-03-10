@@ -61,6 +61,12 @@ const Main = () => {
         </div>
       </div>
 
+      <div className="join-noon col-5 mx-auto text-center p-3 mt-3 hackernoon-color">
+        Join hacker noon
+      </div>
+
+      <p className="text-center mini-text">Create your free account to unlock your custom reading experience.</p>
+
     </>
   )
 }
