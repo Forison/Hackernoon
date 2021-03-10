@@ -72,8 +72,8 @@ code{
   margin-left: 22%;
 }
 .code-container{
-  width: 80%;
-  display: block;
+  width: 90%;
+  font-size: 18px;
   margin: 0 auto;
 }
 .youtube-container{
@@ -84,4 +84,7 @@ img{
 }
 .nav-links, .fifteen-px{
   font-size: 15px;
+}
+.noon-border{
+  border-bottom: 5px solid green;
 }
