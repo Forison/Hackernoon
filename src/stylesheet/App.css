@@ -30,7 +30,8 @@
 .user-image{
   width: 40px;
   height: 45px;
-  border: 5px solid green;
+  border: 5px solid #008000;
+  background: #008000;
 }
 .search{
   background: #002b00;
@@ -80,15 +81,36 @@ code{
   margin-left: 22%;
 }
 img{
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
 }
 .nav-links, .fifteen-px{
   font-size: 15px;
 }
 .noon-border{
-  border-bottom: 5px solid green;
+  border-bottom: 5px solid #008000;
 }
 .small-logo{
   width: 25px;
   height: 25px;
+}
+.text-small{
+  font-size: 18px;
+  font-weight: 900;
+  color: #dcdcdc;
+}
+.related{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background: red;
+}
+.tags{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background: green;
+}
+footer{
+  background: #dcdcdc;
 }

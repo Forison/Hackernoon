@@ -10,19 +10,25 @@ const Main = () => {
     <>
       <h1 className="text-center text-sm">
         {store.title}
-        <div className="d-flex justify-content-between align-items-center col-10 mx-auto">
-          <small>{timeConv(store.publishedAt)} 323 reads</small>
+        <div className="d-flex justify-content-between align-items-center col-11 mx-auto">
+          <small className="text-small">{timeConv(store.publishedAt)} 323 reads</small>
           <div className="float-right">
             <small>11</small>
-            <i className="fa fa-heart"></i>
-            <i className="fa fa-heart"></i>
-            <i className="fa fa-heart"></i>
-            <i className="fa fa-heart"></i>
+            {/* <img src={} alt="hackernoon"/>
+            <img src={} alt="hackernoon"/>
+            <img src={} alt="hackernoon"/>
+            <img src={} alt="hackernoon"/> */}
           </div>
         </div>
       </h1>
       <img src={store.mainImage} alt="hackernoon"/>
       <div className="">{htmlToReactParser.parse(store.markup)}</div>
+      <div className="related">
+
+      </div>
+      <div className="tags">
+
+      </div>
     </>
   )
 }
