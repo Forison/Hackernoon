@@ -14,11 +14,11 @@ const Main = ({store}) => {
     <>
       <h1 className="text-center text-sm">
         {store.title}
-        <div className="d-flex justify-content-between align-items-center col-11 mx-auto">
+        <div className="row mt-3 mt-lg-none justify-content-between align-items-center col-12 col-lg-11 mx-auto">
           <small className="text-small">{timeConv(store.publishedAt)} 
            <span className="fa fa-star ml-2 paint p-2"><strong> 323 reads</strong></span> <i className="fa fa-bookmark ml-2"></i> 
           </small>
-          <div className="float-right d-flex pr-3">
+          <div className="float-right ml-auto ml-lg-none mt-3 mt-lg-none d-flex pr-3">
             <small className="text-small">11</small>
             <img src={heart} alt="hackernoon-footer"/>
             <img src={light} alt="hackernoon-footer"/>
