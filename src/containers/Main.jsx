@@ -1,5 +1,5 @@
-import React from 'react';
-import store from '../store/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd.json';
+import React, { useEffect } from 'react';
+import DATA from '../store/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd.json';
 import HtmlToReactParser from 'html-to-react';
 import timeConv from '../util/TimeConv';
 import heart from '../image/heart.png';
@@ -7,11 +7,24 @@ import light from '../image/light.png';
 import boat from '../image/boat.png';
 import money from '../image/money.png';
 import Profile from '../components/Profile';
+import { useState } from 'react';
 
 const Main = () => {
+  const [store, setStore] = useState([]);
+  const [isLoading, setIsloading] = useState(true)
   const htmlToReactParser = new HtmlToReactParser.Parser();
-  console.log(store)
+
+  useEffect(()=>{
+    setIsloading(true);
+    setTimeout(() => {
+      setStore(DATA);
+      setIsloading(false)
+    }, 2000);
+  }, []);
+
   return (
+    <>
+    {isLoading ? "":
     <>
       <h1 className="text-center text-sm">
         {store.title}
@@ -91,6 +104,8 @@ const Main = () => {
 
       <p className="text-center mini-text">Create your free account to unlock your custom reading experience.</p>
 
+    </>
+    }
     </>
   )
 }

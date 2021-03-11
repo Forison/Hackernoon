@@ -1,6 +1,7 @@
 import React from 'react';
 import twitterIm from '../image/twitter-new.png';
 import youtubeIm from '../image/youtube-new.png';
+
 const Profile = ({data}) => {
   return (
     <div className="profile">
