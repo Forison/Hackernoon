@@ -18,8 +18,8 @@ const Navbar1 = ({image}) => {
           <img src={image} className="img-fluid pb-5" alt="logged_user_image"/>
         </div>
 
-        <div className="user-image ml-1">
-          <i className="fas fa-sun active text-primary" aria-hidden="true"></i>
+        <div className="ml-1 hackernoon-color">
+          <i className="fa fa-sun-o active text-primary" aria-hidden="true"></i>
         </div>
 
       </div>
