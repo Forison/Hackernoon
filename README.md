@@ -30,6 +30,13 @@
 
 - In this project, we are able to fix the horizontal scroll that occurs on the actual page.
 
+## Future Improvement
+
+- Make all links responsive
+- Connect to actual DB
+- add transition property in styling
+- Increase unit and Integration testing
+
 ## Live demo
 
 [View the application by clicking this link](https://hackernoons.herokuapp.com/)
