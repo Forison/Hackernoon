@@ -7,7 +7,7 @@ import DATA from '../store/step-by-step-guide-to-create-3-different-types-of-loa
 import ReactLoading from 'react-loading';
 import useScrollPosition from '@react-hook/window-scroll';
 
-function App() {
+const App = () => {
   const [stores, setStores] = useState([]);
   const [isLoading, setIsloading] = useState(true);
   const scrollY = useScrollPosition(60);

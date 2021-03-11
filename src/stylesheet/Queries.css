@@ -56,9 +56,12 @@
   }
   .nav-wrap{
     position: fixed;
-
+    z-index: 5;
     height: 200px;
     top: 0%;
     margin: 0 auto;
+  }
+  main{
+    z-index: 1;
   }
 }
