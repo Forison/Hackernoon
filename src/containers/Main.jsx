@@ -15,7 +15,9 @@ const Main = () => {
       <h1 className="text-center text-sm">
         {store.title}
         <div className="d-flex justify-content-between align-items-center col-11 mx-auto">
-          <small className="text-small">{timeConv(store.publishedAt)} 323 reads</small>
+          <small className="text-small">{timeConv(store.publishedAt)} 
+           <span className="fa fa-star ml-2 paint p-2"><strong> 323 reads</strong></span> <i className="fa fa-bookmark ml-2"></i> 
+          </small>
           <div className="float-right d-flex pr-3">
             <small className="text-small">11</small>
             <img src={heart} alt="hackernoon-footer"/>
@@ -57,8 +59,8 @@ const Main = () => {
       <div className="tags">
         <h1 className="text-center">Tags</h1>
         <div className="row">
-          {store.tags.map( record =>
-          <div className="col-auto p-1">
+          {store.tags.map((record,index) =>
+          <div className="col-auto p-1" key={index}>
             <h3 className="custom-border p-1">#{record}</h3>
           </div>
           )}

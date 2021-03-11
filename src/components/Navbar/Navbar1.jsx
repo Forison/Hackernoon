@@ -1,4 +1,5 @@
 import React from 'react';
+import search from '../../image/search-new.png';
 
 const Navbar1 = ({image}) => {
   return (
@@ -7,7 +8,8 @@ const Navbar1 = ({image}) => {
       </div>
       <div className="search-and-image d-flex">
         <div className="col-auto">
-          <input type="text" className="form-control search" placeholder="Search..."/>
+          <input type="text" className="form-control" id="search" placeholder="Search..."/>
+          <img src={search} alt="search" className="position-absolute"/>
         </div>
 
         <div className="start-writing text-center letter-spacing">Start Writing</div>
