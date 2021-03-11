@@ -18,10 +18,14 @@ function App() {
     }, 4000);
   }, []);
 
+  const handleScroll = () => {
+  console.log(window.pageYOffset)
+  }
+
   return (
     <>
     {!isLoading ? 
-      <>
+      <div onScroll={handleScroll}>
         <header>
           <Navbar />
         </header>
@@ -31,7 +35,7 @@ function App() {
         <footer>
           <Footer />
         </footer>
-      </>
+      </div>
       :
         <div className="loading-screen">
           <div className="screen-wrap d-block mx-auto align-middle ">

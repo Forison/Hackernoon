@@ -51,4 +51,7 @@
   .position-static{
     position: static;
   }
+  .nav4{
+    display: none;
+  }
 }
