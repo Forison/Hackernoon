@@ -9,7 +9,7 @@ const Navbar1 = ({image}) => {
       <div className="brand-mobile d-block d-lg-none">
       </div>
 
-      <div className="search-and-image d-flex">
+      <div className="search-and-image d-flex ml-0 ml-md-auto ml-lg-auto">
         <div className="col-auto p-1">
           <input type="text" className="form-control" id="search" placeholder="Search..."/>
           <img src={search} alt="search" className="position-absolute"/>

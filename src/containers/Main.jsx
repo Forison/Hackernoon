@@ -28,7 +28,8 @@ const Main = ({store}) => {
         </div>
       </h1>
       <img src={store.mainImage} alt="hackernoon"/>
-      <div className="position-static position-lg-absolute"><Profile data={store.profile}/></div>
+      <div className="d-none d-sm-none d-md-block d-lg-block position-absolute"><Profile data={store.profile}/></div>
+      <div className="d-block d-sm-none d-md-none d-lg-none"><Profile data={store.profile}/></div>
       <>{htmlToReactParser.parse(store.markup)}</>
       <div className="related">
         <h1 className="text-center">Related</h1>

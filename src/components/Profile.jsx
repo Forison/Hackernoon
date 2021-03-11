@@ -7,7 +7,7 @@ const Profile = ({data}) => {
     <div className="profile d-flex">
       <img src={data.avatar} alt="profile"/>
       <div>
-      <div className="ml-3 ml-lg-0">
+      <div className="ml-3 ml-lg-1">
         <h6 className="noon-border">@{data.displayName}</h6>
         <h6>{data.handle}</h6>
       </div>
