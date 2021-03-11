@@ -156,6 +156,7 @@ img[alt="hackernoon-footer"]{
 #search{
   background: #073a07;
   border: 1px solid #fff;
+  width: 300px;
 }
 img[alt="search"]{
   width: 18px;
