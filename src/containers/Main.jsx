@@ -45,12 +45,28 @@ const Main = () => {
                 <img className="img-fluid p-0" src={record.image? record.image : record.mainImage} 
                 alt="hackernoon" />
               </div>
-              <div className="card-bottom d-flex justify-content-between align-items-center">
-                <div className="profile-img">
-                  {/* <img src={record.profile.avatar ? record.profile.avatar : ''} alt="hackernoon"/> */}
+              <div className="card-bottom d-flex align-items-center">
+                {record.profile ?
+                <>
+                <div className="profile-bottom-img ml-2 noon-shadow">
+                  <img src={record.profile.avatar} alt="hackernoon"/>
                 </div>
-                {/* <h3 className="profile-info">{record.profile.displayName ? record.profile.displayName : ' ' }</h3> */}
-                <div className="profile-img"></div>
+                <h3 className="profile-info ml-2">
+                  <small className="noon-border">@{record.profile.displayName}</small>
+                  <br/>
+                  {record.profile.handle}
+                </h3>
+                </>
+                :
+                <>
+                <div className="mini-text-1 ml-2">
+                  <a href={record.link}> Visit hacker Earth</a>
+                  <br />
+                  <span>{record.link}</span>
+                </div>
+                <div className="promoted ml-auto">Promoted</div>
+                </> 
+                }
               </div>
             </div>
           </div>
