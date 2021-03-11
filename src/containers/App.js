@@ -1,7 +1,7 @@
 import '../stylesheet/App.css';
-import Navbar from './Navbar/Index';
-import Footer from './Footer/Footer';
-import Main from '../containers/Main';
+import Navbar from '../components/Navbar/Index';
+import Footer from '../components/Footer/Footer';
+import Main from '../components/Main';
 import React, { useEffect, useState  } from 'react';
 import DATA from '../store/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd.json';
 import ReactLoading from 'react-loading';

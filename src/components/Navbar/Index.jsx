@@ -7,7 +7,6 @@ import Me from '../../image/addo.jpg';
 import '../../stylesheet/Queries.css';
 
 const Index = ({scroll}) => {
-  console.log(scroll)
   return (
     <>
     <div className={scroll > 1 ? 'd-none' : 'd-block'}>

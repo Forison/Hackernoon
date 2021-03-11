@@ -5,7 +5,7 @@ import heart from '../image/heart.png';
 import light from '../image/light.png';
 import boat from '../image/boat.png';
 import money from '../image/money.png';
-import Profile from '../components/Profile';
+import Profile from './Profile';
 
 const Main = ({store}) => {
   const htmlToReactParser = new HtmlToReactParser.Parser();
