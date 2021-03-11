@@ -140,3 +140,18 @@ footer{
   padding: 5px;
   font-size: 25px;
 }
+img[alt="hackernoon-footer"]{
+  width: 20px;
+  height: 20px;
+}
+.footer-left > a{
+  font-size: 15px;
+  color: #000;
+  border-bottom: 5px solid #25e425;
+  border-bottom-style: inset;
+
+}
+.footer-left > a:hover{
+  height: 6px;
+  background: #25e425;
+}
