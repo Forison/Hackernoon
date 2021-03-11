@@ -2,6 +2,10 @@ import React from 'react';
 import store from '../store/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd.json';
 import HtmlToReactParser from 'html-to-react';
 import timeConv from '../util/TimeConv';
+import heart from '../image/heart.png';
+import light from '../image/light.png';
+import boat from '../image/boat.png';
+import money from '../image/money.png';
 
 const Main = () => {
   const htmlToReactParser = new HtmlToReactParser.Parser();
@@ -12,12 +16,12 @@ const Main = () => {
         {store.title}
         <div className="d-flex justify-content-between align-items-center col-11 mx-auto">
           <small className="text-small">{timeConv(store.publishedAt)} 323 reads</small>
-          <div className="float-right">
-            <small>11</small>
-            {/* <img src={} alt="hackernoon"/>
-            <img src={} alt="hackernoon"/>
-            <img src={} alt="hackernoon"/>
-            <img src={} alt="hackernoon"/> */}
+          <div className="float-right d-flex pr-3">
+            <small className="text-small">11</small>
+            <img src={heart} alt="hackernoon-footer"/>
+            <img src={light} alt="hackernoon-footer"/>
+            <img src={boat} alt="hackernoon-footer"/>
+            <img src={money} alt="hackernoon-footer"/>
           </div>
         </div>
       </h1>
