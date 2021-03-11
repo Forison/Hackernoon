@@ -1,6 +1,10 @@
 ## App description
 #### This is a hackernoon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon. 
 
+![Home view](./src/image/hackernoon.png)
+![Home views](./src/image/hackernoon2.png)
+![Home views ](./src/image/hackernoon3.png)
+
 ## Technologies
 
 - Jsx
