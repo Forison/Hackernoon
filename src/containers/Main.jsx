@@ -47,9 +47,9 @@ const Main = () => {
               </div>
               <div className="card-bottom d-flex justify-content-between align-items-center">
                 <div className="profile-img">
-                  {/* <img src={record.profile.avatar} alt="hackernoon"/> */}
+                  {/* <img src={record.profile.avatar ? record.profile.avatar : ''} alt="hackernoon"/> */}
                 </div>
-                {/* <h3 className="profile-info">{record.profile.displayName}</h3> */}
+                {/* <h3 className="profile-info">{record.profile.displayName ? record.profile.displayName : ' ' }</h3> */}
                 <div className="profile-img"></div>
               </div>
             </div>

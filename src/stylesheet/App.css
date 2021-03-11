@@ -12,10 +12,10 @@
   background-size: cover;
 }
 .back-light-green{
-  background-color: #adff2f;
+  background-color: #00ff00;
 }
 .back-dark-green{
-  background-color: #1b240e;
+  background-color: #003b00;
 }
 .back-yellow{
   background-color: yellow;
@@ -130,12 +130,12 @@ footer{
   background: whitesmoke;
 }
 .join-noon{
-  border: 5px solid #25e425;
+  border: 5px solid #00ff00;
   background: #333;
   font-weight: 900;
 }
 .hackernoon-color{
-  color: #25e425;
+  color: #00ff00;
 }
 .mini-text{
   padding: 5px;
@@ -147,13 +147,13 @@ img[alt="hackernoon-footer"]{
 .footer-left > a{
   font-size: 15px;
   color: #000;
-  border-bottom: 5px solid #25e425;
+  border-bottom: 5px solid #00ff00;
   border-bottom-style: inset;
 
 }
 .footer-left > a:hover{
   height: 6px;
-  background: #25e425;
+  background: #00ff00;
 }
 .paint{
   background: whitesmoke;
@@ -182,4 +182,7 @@ img[alt="profile"]{
   width: 200px;
   margin: 5% 0 0 28%;
   font-size: 20px;
+}
+.back-yellow > h3{
+    color: #666105 !important;
 }
