@@ -1,5 +1,5 @@
 ## App description
-This is a hacker noon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon.
+#### This is a hackernoon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon.
 
 ## Technologies
 
@@ -7,7 +7,7 @@ This is a hacker noon fetch page clone, This is a typical front end application 
 - Javascript
 - Bootstrap
 - React
-- Redux
+- CSS
 
 ## Core packages
 - React-loading
@@ -48,8 +48,6 @@ In the project directory, you can run:
 ## Contact
 
 [LinkedIn](https://www.linkedin.com/in/forison/) | [Twitter](https://twitter.com/addo_forison)
-
-## [live demo](https://frozen-bastion-98066.herokuapp.com)
 
 ## Inspired by
 [page](https://hackernoon.com/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd)
