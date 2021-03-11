@@ -1,5 +1,5 @@
 ## App description
-#### This is a hackernoon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon. In this application I am using React functional component with hooks, I am leveraging the power of bootstrap to make with CSS for styling.
+#### This is a hackernoon fetch page clone, This is a typical front-end application built as part of my journey to become a developer at Hackernoon. In this application I am using React functional component with hooks. I am leveraging the power of bootstrap with CSS for styling.
 
 ![Home view](./src/image/hackernoon.png)
 ![Home views](./src/image/hackernoon2.png)
