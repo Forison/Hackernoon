@@ -22,14 +22,16 @@
 - Wait for 5s loading to complete
 - View loading screen as data loads for 5s
 - View page after load
-> In this project we are not making actual Api calls, we mimic the delay in the Api request as it may happen in a real Api request with setTimeout function, to give us a small delay for our loading page to be seen.
+
+> In this project I am not making actual Api calls, I mimic the delay in the Api request as it may happen in a real Api request with setTimeout function, to give us a small delay for our loading page to be seen.
+
 ## Improvement
 
 - In this project, we are able to fix the horizontal scroll that occurs on the actual page.
 
 ## Live demo
 
-[View the application by clicking this link]()
+[View the application by clicking this link](https://hackernoons.herokuapp.com/)
 
 ## How to set up and use app
 
