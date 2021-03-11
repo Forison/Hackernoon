@@ -54,4 +54,11 @@
   .nav4{
     display: none;
   }
+  .nav-wrap{
+    position: fixed;
+
+    height: 200px;
+    top: 0%;
+    margin: 0 auto;
+  }
 }

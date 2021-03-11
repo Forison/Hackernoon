@@ -6,13 +6,20 @@ import Navbar4 from './Navbar4';
 import Me from '../../image/addo.jpg';
 import '../../stylesheet/Queries.css';
 
-const Index = () => {
+const Index = ({scroll}) => {
+  console.log(scroll)
   return (
     <>
+    <div className={scroll > 1 ? 'd-none' : 'd-block'}>
       <Navbar1 image={Me} />
       <Navbar2 />
+    </div>
+    <div className={scroll > 1 ? 'block nav-wrap' : 'd-block'}>
       <Navbar3 />
-      <Navbar4 />
+        <div className={scroll > 1 ? 'block' : 'd-none'}>
+          <Navbar4 />
+        </div>  
+    </div>
     </>
   )
 }

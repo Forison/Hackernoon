@@ -232,3 +232,10 @@ img[alt="profile"]{
   height: 100px;
   margin-top: 40vh;
 }
+.nav-wrap{
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  top: 0%;
+  margin: 0 auto;
+}

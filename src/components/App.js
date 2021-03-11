@@ -5,10 +5,12 @@ import Main from '../containers/Main';
 import React, { useEffect, useState  } from 'react';
 import DATA from '../store/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd.json';
 import ReactLoading from 'react-loading';
+import useScrollPosition from '@react-hook/window-scroll';
 
 function App() {
   const [stores, setStores] = useState([]);
   const [isLoading, setIsloading] = useState(true);
+  const scrollY = useScrollPosition(60);
 
   useEffect(()=>{
     setIsloading(true);
@@ -18,16 +20,12 @@ function App() {
     }, 4000);
   }, []);
 
-  const handleScroll = () => {
-  console.log(window.pageYOffset)
-  }
-
   return (
     <>
     {!isLoading ? 
-      <div onScroll={handleScroll}>
+      <>
         <header>
-          <Navbar />
+          <Navbar scroll ={scrollY}/>
         </header>
         <main>
          <Main store={stores}/>
@@ -35,7 +33,7 @@ function App() {
         <footer>
           <Footer />
         </footer>
-      </div>
+      </>
       :
         <div className="loading-screen">
           <div className="screen-wrap d-block mx-auto align-middle ">
