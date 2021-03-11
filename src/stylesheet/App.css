@@ -11,6 +11,7 @@
   background-position: center;
   background-size: cover;
 }
+
 .back-light-green{
   background-color: #00ff00;
 }
@@ -102,7 +103,6 @@ img{
 }
 .related{
   width: 90%;
-  height: 500px;
   margin: 0 auto;
 }
 .tags{

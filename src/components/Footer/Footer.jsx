@@ -12,20 +12,28 @@ const Footer = () => {
   return (
     <div className="container-fluid">
     <div className="row align-items-center">
-      <div className="footer-left col-8 ">
+      <div className="footer-left col-10 col-lg-8 ">
         <a href="https://hackernoon.com/"> Help</a> <a href="https://hackernoon.com/"> About</a> <a href="https://hackernoon.com/"> Start</a> <a href="https://hackernoon.com/"> Writing Sponsor</a>: <a href="https://hackernoon.com/"> Brand-as-Author</a> <a href="https://hackernoon.com/">Sitewide</a> <a href="https://hackernoon.com/">Billboard</a> <a href="https://hackernoon.com/">Ad by tag Newsletter</a> <a href="https://hackernoon.com/">  Noonies</a>
         <a href="https://hackernoon.com/"> Contact Us </a> <a href="https://hackernoon.com/"> Terms</a> <a href="https://hackernoon.com/"> Privacy</a> <a href="https://hackernoon.com/"> Cookies</a> <a href="https://hackernoon.com/"> Stories</a> <a href="https://hackernoon.com/"> published</a> <a href="https://hackernoon.com/">yesterday</a> <a href="https://hackernoon.com/">Leaderboard</a> <a href="https://hackernoon.com/">Contributors' Club </a>
         <a href="https://hackernoon.com/"> Chrome Extension </a>
       </div>
-      <div className="footer-right d-flex col-4">
-       <img src={facebook} alt="hackernoon-footer"/>
-       <img src={github} alt="hackernoon-footer"/>
-       <img src={instagram} alt="hackernoon-footer"/>
-       <img src={rss} alt="hackernoon-footer"/>
-       <img src={youtube} alt="hackernoon-footer"/>
-       <img src={podcast} alt="hackernoon-footer"/>
-       <img src={linkedin} alt="hackernoon-footer"/>
-       <img src={twitter} alt="hackernoon-footer"/>
+      <div className="footer-right col-2 col-lg-4 row">
+        <div className="col-2">
+          <img src={facebook} alt="hackernoon-footer"/>
+          <img src={github} alt="hackernoon-footer"/>
+        </div>
+        <div className="col-2">
+          <img src={instagram} alt="hackernoon-footer"/>
+          <img src={rss} alt="hackernoon-footer"/>
+        </div>
+        <div className="col-2">
+          <img src={youtube} alt="hackernoon-footer"/>
+          <img src={podcast} alt="hackernoon-footer"/>
+        </div>
+       <div className="col-2">
+         <img src={linkedin} alt="hackernoon-footer"/>
+         <img src={twitter} alt="hackernoon-footer"/>
+       </div>
       </div>
     </div>
     </div>

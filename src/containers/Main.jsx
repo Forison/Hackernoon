@@ -28,13 +28,13 @@ const Main = ({store}) => {
         </div>
       </h1>
       <img src={store.mainImage} alt="hackernoon"/>
-      <div className="position-absolute"><Profile data={store.profile}/></div>
+      <div className="position-static position-lg-absolute"><Profile data={store.profile}/></div>
       <>{htmlToReactParser.parse(store.markup)}</>
       <div className="related">
         <h1 className="text-center">Related</h1>
         <div className="row">
         {store.relatedStories.map((record,index)=>
-          <div className="col-4" key={index}>
+          <div className="col-12 col-lg-4" key={index}>
             <div className="my-card p-0">
               <div className="top">
                 <h5 className="card-title">{record.text? record.text : record.title}</h5>
@@ -84,7 +84,7 @@ const Main = ({store}) => {
         </div>
       </div>
 
-      <div className="join-noon col-5 mx-auto text-center p-3 mt-3 hackernoon-color">
+      <div className="join-noon d-none d-md-block d-lg-block col-5 mx-auto text-center p-3 mt-3 hackernoon-color">
         Join hacker noon
       </div>
 
