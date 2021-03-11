@@ -7,9 +7,9 @@ import twitter from '../../image/twitter-new.png';
 
 const Navbar4 = () => {
   return (
-  <nav className="navbar fifteen-px shadow-sm">
+  <nav className="navbar fifteen-px shadow-sm d-none d-lg-block">
     <div className="col-8 p-0">
-    <span className="small-logo ml-2"><img src={nooner} alt="hackernoon" className="small-logo"/></span>
+    <span className="small-logo ml-lg-2"><img src={nooner} alt="hackernoon" className="small-logo"/></span>
     Step by Step Guide to Create 3 
     Different Types of Loading Screens in React by
     <strong className="noon-border"> @CodeBucks</strong>.

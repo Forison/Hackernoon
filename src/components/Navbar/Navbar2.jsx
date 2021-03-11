@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar2 = () => {
   return (
-    <nav className="navbar back-dark-green">
+    <nav className="navbar back-dark-green d-none d-lg-block">
       <div className="navbar-wrap mx-auto d-flex justify-content-between align-items-center p-2">
       <a className="nav-links text-light" href="https://hackernoon.com/">Read</a>
       <a className="nav-links text-light" href="https://hackernoon.com/">Top Stories</a>

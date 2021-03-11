@@ -15,7 +15,7 @@ function App() {
     setTimeout(() => {
       setStores(DATA);
       setIsloading(false)
-    }, 2000);
+    }, 4000);
   }, []);
 
   return (

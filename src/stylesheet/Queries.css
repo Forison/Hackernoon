@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+  .brand-mobile{
+    width: 30px;
+    height: 30px;
+    background-image: url('../image/nooner.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .navbar4-content{
+    font-size: 1.3rem;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+}
