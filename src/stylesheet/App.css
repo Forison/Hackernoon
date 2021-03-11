@@ -85,7 +85,12 @@ img{
   font-size: 15px;
 }
 .noon-border{
-  border-bottom: 10px solid #25e425;
+  padding: 2px 0px 1px;
+  background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgba(0, 255, 0, 0.35) calc(50% - 9px), rgba(0, 255, 0, 0.35) 100%);
+  transition: background-position 120ms ease-in-out 0s, padding 120ms ease-in-out 0s;
+  background-size: 100% 200%;
+  background-position: 0px 0px;
+  word-break: break-word;
 }
 .small-logo{
   width: 25px;
@@ -167,4 +172,14 @@ img[alt="search"]{
   width: 19px;
   transform: translate(0px, -50%);
   cursor: pointer;
+}
+img[alt="profile"]{
+  width: 50px;
+  height: 50px;
+  border: 5px solid #808080;
+}
+.profile{
+  width: 200px;
+  margin: 5% 0 0 28%;
+  font-size: 20px;
 }

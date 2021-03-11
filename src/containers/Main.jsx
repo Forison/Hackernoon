@@ -6,6 +6,7 @@ import heart from '../image/heart.png';
 import light from '../image/light.png';
 import boat from '../image/boat.png';
 import money from '../image/money.png';
+import Profile from '../components/Profile';
 
 const Main = () => {
   const htmlToReactParser = new HtmlToReactParser.Parser();
@@ -28,7 +29,8 @@ const Main = () => {
         </div>
       </h1>
       <img src={store.mainImage} alt="hackernoon"/>
-      <div className="">{htmlToReactParser.parse(store.markup)}</div>
+      <div className="position-absolute"><Profile data={store.profile}/></div>
+      <>{htmlToReactParser.parse(store.markup)}</>
       <div className="related">
         <h1 className="text-center">Related</h1>
         <div className="row">
