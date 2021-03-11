@@ -1,5 +1,5 @@
 ## App description
-#### This is a hackernoon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon. 
+#### This is a hackernoon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon. In this application I am using React functional component with hooks, I am leveraging the power of bootstrap to make with CSS for styling.
 
 ![Home view](./src/image/hackernoon.png)
 ![Home views](./src/image/hackernoon2.png)
@@ -16,6 +16,7 @@
 ## Core packages
 - React-loading
 - HTML-to-react 
+- 
 
 ## Features
 - Read data from store
@@ -39,6 +40,9 @@ In the project directory, you can run:
 - ``` git clone https://github.com/Forison/Hackernoon```,
 - ``` cd Hackernoon```
 - ``` npm start ```
+
+> You may enter the command below to run your test in development 
+- ``` npm test ```
 
 > Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
