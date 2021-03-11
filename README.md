@@ -16,7 +16,6 @@
 ## Core packages
 - React-loading
 - HTML-to-react 
-- 
 
 ## Features
 - Read data from store

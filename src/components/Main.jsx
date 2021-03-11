@@ -6,6 +6,7 @@ import light from '../image/light.png';
 import boat from '../image/boat.png';
 import money from '../image/money.png';
 import Profile from './Profile';
+import PropTypes from 'prop-types';
 
 const Main = ({store}) => {
   const htmlToReactParser = new HtmlToReactParser.Parser();
@@ -94,4 +95,7 @@ const Main = ({store}) => {
     </>
   )
 }
+Main.propTypes = {
+  store: PropTypes.object.isRequired,
+};
 export default Main;

@@ -5,6 +5,7 @@ import Navbar3 from './Navbar3';
 import Navbar4 from './Navbar4';
 import Me from '../../image/addo.jpg';
 import '../../stylesheet/Queries.css';
+import PropTypes from 'prop-types';
 
 const Index = ({scroll}) => {
   return (
@@ -22,4 +23,9 @@ const Index = ({scroll}) => {
     </>
   )
 }
+
+Index.propTypes = {
+  scroll: PropTypes.number,
+};
+
 export default Index;

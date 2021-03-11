@@ -1,6 +1,7 @@
 import React from 'react';
 import twitterIm from '../image/twitter-new.png';
 import youtubeIm from '../image/youtube-new.png';
+import PropTypes from 'prop-types';
 
 const Profile = ({data}) => {
   return (
@@ -27,4 +28,8 @@ const Profile = ({data}) => {
     </div>
   )
 }
+Profile.propTypes = {
+  data: PropTypes.object.isRequired,
+};
+
 export default Profile;

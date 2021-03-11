@@ -1,5 +1,6 @@
 import React from 'react';
 import search from '../../image/search-new.png';
+import PropTypes from 'prop-types';
 
 const Navbar1 = ({image}) => {
   return (
@@ -29,4 +30,8 @@ const Navbar1 = ({image}) => {
     </nav>
   )
 }
+
+Navbar1.propTypes = {
+  image: PropTypes.string.isRequired,
+};
 export default Navbar1;
