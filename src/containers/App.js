@@ -10,7 +10,7 @@ import useScrollPosition from '@react-hook/window-scroll';
 const App = () => {
   const [stores, setStores] = useState([]);
   const [isLoading, setIsloading] = useState(true);
-  const scrollY = useScrollPosition(60);
+  const scrollY = useScrollPosition(10);
 
   useEffect(()=>{
     setIsloading(true);

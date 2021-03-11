@@ -35,6 +35,7 @@
 - Connect to actual DB
 - add transition property in styling
 - Increase unit and Integration testing
+- Make web vital submit to an actual endpoint
 
 ## Live demo
 
