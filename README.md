@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## App description
+This is a hacker noon fetch page clone, This is a typical front end application built as part of my journey to become a developer at Hackernoon.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies
 
-## Available Scripts
+- Jsx
+- Javascript
+- Bootstrap
+- React
+- Redux
+
+## Core packages
+- React-loading
+- HTML-to-react 
+
+## Features
+- Read data from store
+- Wait for 5s loading to complete
+- View loading screen as data loads for 5s
+- View page after load
+
+## Improvement
+
+- In this project, we are able to fix the horizontal scroll that occurs on the actual page.
+
+## Live demo
+
+[View the application by clicking this link]()
+
+## How to set up and use app
 
 In the project directory, you can run:
+- ``` git clone https://github.com/Forison/Hackernoon```,
+- ``` cd Hackernoon```
+- ``` npm start ```
 
-### `yarn start`
+> Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Reference
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[page](https://hackernoon.com/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd)
 
-### `yarn test`
+## Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 **Addo Forison**
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[LinkedIn](https://www.linkedin.com/in/forison/) | [Twitter](https://twitter.com/addo_forison)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## [live demo](https://frozen-bastion-98066.herokuapp.com)
 
-### `yarn eject`
+## Inspired by
+[page](https://hackernoon.com/step-by-step-guide-to-create-3-different-types-of-loading-screens-in-react-lu2633nd)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Appreciation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!")
